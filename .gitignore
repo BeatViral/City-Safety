@@ -1,0 +1,9 @@
+node_modules
+dist
+.DS_Store
+*.local
+*.tsbuildinfo
+.vite
+
+# Local design reference supplied with the brief
+ChatGPT Image Jul 17, 2026, 12_27_27 PM.png
