@@ -16,6 +16,7 @@ npm run dev
 ```bash
 npm run lint
 npm run build
+npm run build:pages
 npm run preview
 ```
 
@@ -23,7 +24,7 @@ The Vite build uses a relative asset base, so the generated `dist` directory wor
 
 ## Deployment
 
-The included GitHub Actions workflow builds and deploys the site to GitHub Pages whenever `main` is updated. In the repository settings, Pages must use **GitHub Actions** as its source.
+GitHub Pages is configured to publish the `main` branch root. Run `npm run build:pages` before committing a release; this creates the normal `dist` build and synchronises its production entry and compiled assets to the repository root. The source HTML remains in `index.source.html` for Vite development.
 
 ## Prototype disclaimer
 
