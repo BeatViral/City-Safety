@@ -573,6 +573,7 @@ svg {
   flex-direction: column;
   position: relative;
   overflow: hidden;
+  color: var(--ink);
   border: 1px solid #080808;
   border-radius: 12% / 6.5%;
   background: #f7f3ec;
@@ -674,6 +675,7 @@ svg {
   padding: 6px 16px 7px 12px;
   background: linear-gradient(95deg, #f6faf4, #edf5eb);
   border-bottom: 1px solid #d8ded4;
+  color: #111a15;
 }
 
 .chat-header .brand-mark-md {
@@ -795,7 +797,9 @@ svg {
 
 .user-bubble p {
   margin: 0;
-  font-size: 0.66rem;
+  color: #24372c;
+  font-size: 0.68rem;
+  font-weight: 600;
   line-height: 1.42;
 }
 
